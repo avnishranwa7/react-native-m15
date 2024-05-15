@@ -22,6 +22,21 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "plugins": [
+      [
+        "expo-notifications",
+        {
+          "icon": "./local/assets/icon.png",
+          "color": "#ffffff"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "d8e006fd-aba2-490c-a5c2-a8c10a8a3967"
+      }
+    },
+    "owner": "avnishranwa7"
   }
 }
